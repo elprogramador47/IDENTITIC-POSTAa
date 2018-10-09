@@ -1,0 +1,39 @@
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\bin\Debug\prueba identitic.exe.config
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\bin\Debug\prueba identitic.exe
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\bin\Debug\prueba identitic.pdb
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\obj\Debug\prueba identitic.csprojAssemblyReference.cache
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\obj\Debug\prueba_identitic.Form1.resources
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\obj\Debug\prueba_identitic.Properties.Resources.resources
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\obj\Debug\prueba identitic.csproj.GenerateResource.cache
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\obj\Debug\prueba identitic.csproj.CoreCompileInputs.cache
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\obj\Debug\prueba identitic.exe
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\obj\Debug\prueba identitic.pdb
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\GONZALO\Desktop\prueba identitic\prueba identitic\obj\Debug\prueba identitic.csproj.CopyComplete
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\bin\Debug\prueba identitic.exe.config
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\bin\Debug\prueba identitic.exe
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\bin\Debug\prueba identitic.pdb
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.csprojAssemblyReference.cache
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba_identitic.Form1.resources
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba_identitic.Properties.Resources.resources
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.csproj.GenerateResource.cache
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.csproj.CoreCompileInputs.cache
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.csproj.CopyComplete
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.exe
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.pdb
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba_identitic.Registrarse.resources
+C:\Users\GONZALO\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba_identitic.dashboard.resources
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\bin\Debug\prueba identitic.exe.config
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\bin\Debug\prueba identitic.exe
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\bin\Debug\prueba identitic.pdb
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.csprojResolveAssemblyReference.cache
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba_identitic.dashboard.resources
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba_identitic.Form1.resources
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba_identitic.Properties.Resources.resources
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba_identitic.Registrarse.resources
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.csproj.GenerateResource.Cache
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.csproj.CoreCompileInputs.cache
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.exe
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.pdb
+C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba_identitic.Dashboard_profesor.resources
