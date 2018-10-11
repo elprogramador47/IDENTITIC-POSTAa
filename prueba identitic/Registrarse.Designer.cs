@@ -36,11 +36,11 @@
             this.bunifuMaterialTextbox4 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -154,6 +154,7 @@
             this.linkLabel1.TabIndex = 22;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "¿Ya estas registrado? ¡Inicia sesion aqui!";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // linkLabel2
             // 
@@ -162,10 +163,24 @@
             this.linkLabel2.LinkColor = System.Drawing.Color.White;
             this.linkLabel2.Location = new System.Drawing.Point(443, 600);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(303, 32);
+            this.linkLabel2.Size = new System.Drawing.Size(0, 16);
             this.linkLabel2.TabIndex = 23;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "¿Olvidaste tu contraseña? ¡Recuperala ya mismo!\r\n\r\n";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.Color.White;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Alumno",
+            "Profesor",
+            "Asistente"});
+            this.comboBox1.Location = new System.Drawing.Point(409, 346);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(130, 21);
+            this.comboBox1.TabIndex = 24;
+            this.comboBox1.Text = "Funcion";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // bunifuFlatButton1
             // 
@@ -230,21 +245,6 @@
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.White;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Alumno",
-            "Profesor",
-            "Asistente"});
-            this.comboBox1.Location = new System.Drawing.Point(409, 346);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(130, 21);
-            this.comboBox1.TabIndex = 24;
-            this.comboBox1.Text = "Funcion";
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // Registrarse
             // 

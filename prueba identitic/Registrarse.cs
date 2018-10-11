@@ -52,25 +52,20 @@ namespace prueba_identitic
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedText == "Alumno")
+            if(bunifuMaterialTextbox1.Text == "nombre completo" || bunifuMaterialTextbox2.Text == "Mail"
+               || comboBox1.SelectedText == "Funcion" || bunifuMaterialTextbox4.Text == "Contraseña")
             {
-                dashboard dashboard = new dashboard();
-                dashboard.Show();
-                this.Hide();
+                MessageBox.Show("Faltan completar campos");
             }
-
-
             else
             {
-                if (comboBox1.SelectedText == "Profesor")
-                {
-                    Dashboard_profesor dashboard_Profesor = new Dashboard_profesor();
-                    dashboard_Profesor.Show();
-                    this.Hide();
-                }
+                MessageBox.Show("Usuario Registrado. ¡Ahora inicia sesion!");
+                Iniciar_Sesion iniciar_Sesion = new Iniciar_Sesion();
+                iniciar_Sesion.Show();
+                this.Hide();
             }
-           
             
+
         }
 
         private void bunifuMaterialTextbox1_Enter(object sender, EventArgs e)
@@ -143,6 +138,19 @@ namespace prueba_identitic
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Iniciar_Sesion iniciar_Sesion = new Iniciar_Sesion();
+            iniciar_Sesion.Show();
+            this.Hide();
 
         }
     }

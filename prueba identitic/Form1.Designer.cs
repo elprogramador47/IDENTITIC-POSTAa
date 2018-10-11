@@ -172,11 +172,12 @@
             this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Nirmala UI Semilight", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(534, 503);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(543, 503);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(127, 32);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(104, 32);
             this.bunifuCustomLabel1.TabIndex = 32;
-            this.bunifuCustomLabel1.Text = "Registrarse";
+            this.bunifuCustomLabel1.Text = "Empezar";
+            this.bunifuCustomLabel1.Click += new System.EventHandler(this.bunifuCustomLabel1_Click);
             // 
             // pictureBox5
             // 

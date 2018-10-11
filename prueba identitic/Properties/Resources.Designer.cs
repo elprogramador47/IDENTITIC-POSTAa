@@ -243,6 +243,16 @@ namespace prueba_identitic.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IDENTITIC1 {
+            get {
+                object obj = ResourceManager.GetObject("IDENTITIC1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap instagram {
             get {
                 object obj = ResourceManager.GetObject("instagram", resourceCulture);

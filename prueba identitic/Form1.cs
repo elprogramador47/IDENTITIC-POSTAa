@@ -94,12 +94,17 @@ namespace prueba_identitic
 
         private void pictureBox5_Click_1(object sender, EventArgs e)
         {
-            Registrarse registrarse = new Registrarse();
-            registrarse.Show();
+            Iniciar_Sesion iniciar_Sesion = new Iniciar_Sesion();
+            iniciar_Sesion.Show();
             this.Hide();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
         {
 
         }

@@ -37,3 +37,17 @@ C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba
 C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.exe
 C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba identitic.pdb
 C:\Users\44362044\Desktop\identitic MINIMALIST\prueba identitic\obj\Debug\prueba_identitic.Dashboard_profesor.resources
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\bin\Debug\prueba identitic.exe.config
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\bin\Debug\prueba identitic.exe
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\bin\Debug\prueba identitic.pdb
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\obj\Debug\prueba identitic.csprojResolveAssemblyReference.cache
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\obj\Debug\prueba_identitic.Dashboard_profesor.resources
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\obj\Debug\prueba_identitic.dashboard.resources
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\obj\Debug\prueba_identitic.Form1.resources
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\obj\Debug\prueba_identitic.Iniciar_Sesion.resources
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\obj\Debug\prueba_identitic.Properties.Resources.resources
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\obj\Debug\prueba_identitic.Registrarse.resources
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\obj\Debug\prueba identitic.csproj.GenerateResource.Cache
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\obj\Debug\prueba identitic.csproj.CoreCompileInputs.cache
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\obj\Debug\prueba identitic.exe
+C:\Users\44362044\Desktop\IDENTITIC-POSTA\prueba identitic\obj\Debug\prueba identitic.pdb
