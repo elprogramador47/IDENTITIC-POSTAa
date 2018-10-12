@@ -53,11 +53,13 @@ namespace prueba_identitic
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-			OleDbConnection con = new OleDbConnection(@"C: \Users\44598785\Desktop\IDENTITIC - POSTAa\Base de datos general de identitic.accdb");
+			OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source= .\Base de datos general de identitic.accdb");
+
 			comando = new OleDbCommand("INSERT INTO Registro(E-mail, nombre, apellido, contrasena, Funcion) VALUES('" + bunifuMaterialTextbox2.Text + "','" + bunifuMaterialTextbox1.Text + "', '" + bunifuMaterialTextbox1.Text + "','" + bunifuMaterialTextbox4.Text + "', " + comboBox1.Text + ")", con);
 			con.Open();
 			comando.ExecuteNonQuery();
 			con.Close();
+			
 			
 
 			if (bunifuMaterialTextbox1.Text == "nombre completo" || bunifuMaterialTextbox2.Text == "Mail"
