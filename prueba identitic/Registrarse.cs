@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-
+using System.Data.OleDb;
 namespace prueba_identitic
 {
     public partial class Registrarse : Form
@@ -17,6 +17,7 @@ namespace prueba_identitic
         {
             InitializeComponent();
         }
+		OleDbCommand comando;
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -52,7 +53,14 @@ namespace prueba_identitic
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-            if(bunifuMaterialTextbox1.Text == "nombre completo" || bunifuMaterialTextbox2.Text == "Mail"
+			OleDbConnection con = new OleDbConnection(@"C: \Users\44598785\Desktop\IDENTITIC - POSTAa\Base de datos general de identitic.accdb");
+			comando = new OleDbCommand("INSERT INTO Registro(E-mail, nombre, apellido, contrasena, Funcion) VALUES('" + bunifuMaterialTextbox2.Text + "','" + bunifuMaterialTextbox1.Text + "', '" + bunifuMaterialTextbox1.Text + "','" + bunifuMaterialTextbox4.Text + "', " + comboBox1.Text + ")", con);
+			con.Open();
+			comando.ExecuteNonQuery();
+			con.Close();
+			
+
+			if (bunifuMaterialTextbox1.Text == "nombre completo" || bunifuMaterialTextbox2.Text == "Mail"
                || comboBox1.SelectedText == "Funcion" || bunifuMaterialTextbox4.Text == "Contraseña")
             {
                 MessageBox.Show("Faltan completar campos");
