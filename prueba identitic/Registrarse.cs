@@ -43,7 +43,7 @@ namespace prueba_identitic
 
         private void Registrarse_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -55,16 +55,9 @@ namespace prueba_identitic
         {
 			OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Base de datos general de identitic.accdb");
 
-			string sql = "INSERT INTO Registro (email, nombre, apellido, contrasena, Funcion) VALUES ('" + bunifuMaterialTextbox1.Text + "','" + bunifuMaterialTextbox1.Text + "', '" + bunifuMaterialTextbox1.Text + "','" + bunifuMaterialTextbox4.Text + "', '" + comboBox1.Text + "')";
-			comando = new OleDbCommand(sql, con);
-		    con.Open();
-		    comando.ExecuteNonQuery();
-			con.Close();
-			
-			
 
 			if (bunifuMaterialTextbox1.Text == "nombre completo" || bunifuMaterialTextbox2.Text == "Mail"
-               || comboBox1.SelectedText == "Funcion" || bunifuMaterialTextbox4.Text == "Contraseña")
+               || comboBox1.SelectedText == "Funcion" || bunifuMaterialTextbox4.Text == "Contraseña" || bunifuMaterialTextbox5.Text == "Apellido")
             {
                 MessageBox.Show("Faltan completar campos");
             }
@@ -74,6 +67,11 @@ namespace prueba_identitic
                 Iniciar_Sesion iniciar_Sesion = new Iniciar_Sesion();
                 iniciar_Sesion.Show();
                 this.Hide();
+                string sql = "INSERT INTO Registro (email, nombre, apellido, contrasena, Funcion) VALUES ('" + bunifuMaterialTextbox1.Text + "','" + bunifuMaterialTextbox1.Text + "', '" + bunifuMaterialTextbox1.Text + "','" + bunifuMaterialTextbox4.Text + "', '" + comboBox1.Text + "')";
+                comando = new OleDbCommand(sql, con);
+                con.Open();
+                comando.ExecuteNonQuery();
+                con.Close();
             }
             
 
@@ -81,7 +79,7 @@ namespace prueba_identitic
 
         private void bunifuMaterialTextbox1_Enter(object sender, EventArgs e)
         {
-            if (bunifuMaterialTextbox1.Text == "Nombre completo")
+            if (bunifuMaterialTextbox1.Text == "Nombre")
             {
                 bunifuMaterialTextbox1.Text = "";
                
@@ -93,7 +91,7 @@ namespace prueba_identitic
         {
             if( bunifuMaterialTextbox1.Text =="")
             {
-                bunifuMaterialTextbox1.Text = "Nombre completo";
+                bunifuMaterialTextbox1.Text = "Nombre";
             }
         }
 
@@ -116,7 +114,7 @@ namespace prueba_identitic
         {
             if (bunifuMaterialTextbox2.Text == "")
             {
-                bunifuMaterialTextbox1.Text = "Mail";
+                bunifuMaterialTextbox2.Text = "Mail";
             }
 
         }
@@ -163,6 +161,39 @@ namespace prueba_identitic
             iniciar_Sesion.Show();
             this.Hide();
 
+        }
+
+        private void bunifuMaterialTextbox1_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Focus();
+        }
+
+        private void bunifuMaterialTextbox5_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuMaterialTextbox5_Enter(object sender, EventArgs e)
+        {
+            if (bunifuMaterialTextbox5.Text == "Apellido")
+            {
+                bunifuMaterialTextbox5.Text = "";
+
+            }
+        }
+
+        private void bunifuMaterialTextbox5_Leave(object sender, EventArgs e)
+        {
+            if (bunifuMaterialTextbox5.Text == "")
+            {
+                bunifuMaterialTextbox5.Text = "Apellido";
+
+            }
         }
     }
 }
