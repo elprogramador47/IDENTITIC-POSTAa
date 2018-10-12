@@ -243,6 +243,26 @@ namespace prueba_identitic.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap huella_dactilar__5_ {
+            get {
+                object obj = ResourceManager.GetObject("huella-dactilar (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IDENTITIC {
+            get {
+                object obj = ResourceManager.GetObject("IDENTITIC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IDENTITIC1 {
             get {
                 object obj = ResourceManager.GetObject("IDENTITIC1", resourceCulture);

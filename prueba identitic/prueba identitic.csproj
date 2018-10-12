@@ -220,5 +220,11 @@
   <ItemGroup>
     <None Include="Resources\IDENTITIC1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IDENTITIC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huella-dactilar %285%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
